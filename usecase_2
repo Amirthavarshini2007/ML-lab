@@ -30,3 +30,7 @@ root = max(gains, key=gains.get)
 
 print("Information Gain:", gains)
 print("Root Node:", root)
+
+OUTPUT:
+Information Gain: {'Fever': 0.8112781244591328, 'Cough': 0.8112781244591328, 'Fatigue': 0.31127812445913283, 'Age': 0.31127812445913283}
+Root Node: Fever
